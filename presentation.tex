@@ -2,9 +2,9 @@
 %aspcetratio >> 1610 169 149 54 43 32
 %The themes:
 %\usetheme[style=classic]{mharvellous}
-\usetheme[style=dark]{mharvellous}
+%\usetheme[style=dark]{mharvellous}
 %\usetheme[style=mracula]{mharvellous}
-%\usetheme[style=default]{mharvellous}
+\usetheme[style=default]{mharvellous}
 %*--------------------------------------------------
 %\usepackage{helvet}
 %*--------------------------------------------------
@@ -68,6 +68,11 @@
 \usepackage{xfrac}
 \usepackage{units}
 \usepackage{ulem}
+\usepackage{ragged2e}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+
+\apptocmd{\frame}{}{\justifying}{} % Allow optional arguments after frame.
 %*-------------------------------------------------------------------------------
 %\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -90,7 +95,7 @@
 \author             {João Gabriel da Anunciação Calmon}
 \email              {joao.calmon@aln.senaicimatec.edu.br}
 \advisor            {Orientador: Marco A. dos Reis}
-\institute          {Robótica e Sistemas Autônomos, Senai Cimatec}
+\institute          {Acompanhamento e Orientação de Projeto - TP}
 \date               {Abril de 2022}
 % \ulogo        		{Template/logosenaicimatecnegativo}
 % \ulogof             {Template/logosenaicimatec2020}

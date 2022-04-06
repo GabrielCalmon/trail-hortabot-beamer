@@ -1,5 +1,26 @@
+%*-----------ORIENTADOR -------------------------------------------------------------
+\begin{frame}[t]{Horta-bot}
+    \transboxout[duration=0.5]
+    \framesubtitle{Marco A. Reis}
+    \begin{columns}
+        \column{.075\textwidth}
+        \column{.4\textwidth}
+            \includegraphics[width=.7\textwidth]{darwin-op}
+        \column{.55\textwidth}
+            \begin{itemize}
+                \justifying
+                \item Possui graduação em Engenharia Elétrica pela Universidade Federal do Paraná (1996) e mestrado em Engenharia de Produção pela Universidade Federal de Santa Catarina (2003);
+                % \item 20 DoF\footnote{do inglês, graus de liberdade};
+                \item (...);
+            \end{itemize}
+    \end{columns}
+ %*----------- notes
+    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+\end{frame}
+%-
+
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[t]{Introdução} 
+\begin{frame}[t]{Justificativa} 
     \transdissolve[duration=0.5]
     Um dos pontos importantes na área da robótica é a interação entre os sistemas, e em decorrência ao programa de formação em robótica uma das lacunas será preenchida com o desenvolvimento do desafio 2.5..
 
@@ -29,18 +50,59 @@
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 %-
+
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Objetivo} 
-    \framesubtitle{sub-objetivo}
+\begin{frame}
+    %\transdissolve[duration=0.5]
+    %\hspace*{-1cm}
+    \begin{columns}
+        %\column{.01\textwidth}
+        \column{0.4\textwidth}
+            ~\hfill
+            \vbox{}\vskip-1.4ex%
+            \begin{beamercolorbox}[sep=6em, colsep*=18pt, center, wd=\textwidth, ht=\paperheight]{title page header}%
+                \begin{center}
+                    \textbf{\huge{PROBLEMA}}\par
+                    \vspace*{0.3cm}
+                    \textbf{\huge{DE}}\par
+                    \vspace*{0.3cm}
+                    \textbf{\huge{PESQUISA}}
+                \end{center}
+            \end{beamercolorbox}%
+        \hfill\hfill
+        \column{.05\textwidth} 
+        \column{.6\textwidth}
+            \small{\lipsum[2-1]}
+            \begin{itemize}
+                \item tópico 1
+                \item tópico 2 
+                \item \xout{tópico 3}
+                \item \sout{last tópico}
+            \end{itemize}
+    \end{columns}
+  
+ %*----------- notes__
+    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+\end{frame}
+%-
+
+%*----------- OBJETIVO GERAL -------------------------------------------------------------
+\begin{frame}[c]{Objetivo Geral} 
+    \framesubtitle{!!sub-objetivo!!}
     \transdissolve[duration=0.5]
    
     \begin{center}
         \Wider{%
         \begin{shaded}
         \begin{center}
-            \vspace*{0.5cm}
-            \resizebox{!}{0.7cm}{%
-                \color{bg} O objetivo é ter um objetivo.
+            \vspace*{0.4cm}
+            \resizebox{!}{1.3cm}{%
+               % \color{bg} O objetivo é ter um objetivo.
+                \begin{tabular}{ccc}
+                    Desenvolver um sistema robótico capaz de realizar o \\
+                    monitoramento de hortaliças e realizar a plantação\\ 
+                    das mesmas.       
+                  \end{tabular}
             }%
         \end{center}
         \end{shaded}
@@ -52,9 +114,34 @@
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 %-
+%*----------- SLIDE -------------------------------------------------------------
+\begin{frame}[t]{Objetivos Específicos}
+    \transboxout[duration=0.5]
+    \framesubtitle{Darwin-OP}
+    \begin{columns}
+        \column{.1\textwidth}
+        \column{1.8\textwidth}
+            \begin{enumerate}
+                \item Realizar o estudo do estado da arte;
+                \item Desenvolver sistema de movimentação para a unidade de supervisionamento;
+                \item Desenvolver sistema de monitoramento visual (computacional);
+                \item Desenvolver sistema de atuação para plantação e aquecimento;
+                \item Desenvolver página de informações para o compartilhamento dos resultados com 
+                \\ os usuários;
+                \item Realizar demonstração do sistema;
+                \item Desenvolvimento de artigos científicos.
+
+            \end{enumerate}
+    \end{columns}
+ %*----------- notes
+    \note[item]{Notes can help you to remember important information. Turn on the notes option.}
+\end{frame}
+%-
+
 {
 \setbeamertemplate{background}
 {\includegraphics[trim = 0 0 0 0, clip, width = \the\paperwidth, height = \the\paperheight]{marcel-knupfer-37wuETxVwTQ-unsplash.jpg}}
+
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[c]{}
     \transboxout[duration=0.5]
