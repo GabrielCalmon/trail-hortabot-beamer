@@ -15,14 +15,12 @@
             
         \column{.55\textwidth}
                 %\justifying
-                %//todo não use ponto e vírgula, isso não é um relatório é uma apresentação
-                %//todo não use bullets
-                %//note já enviei o meu short bio para vc, mas...
                 %//note Senior Engineer and Researcher with more than 20 years of experience in industrial project management and R&D, including the implementation of two automobile plants in Brazil as well as in steel making, power generation and automation. Develops robotic and manipulator tool designs, autonomous vehicles, asset management, RCM, TPM, reliability and maintenance of critical equipment, and evaluation in FMEA application. In recent 10 years he has worked in development robotic projects.
+                %//todo resumir
                 \vspace*{0.1cm}
                 \justifying
                 
-                Engenheiro e Investigador sênior com mais de 20 anos de experiência em gestão de projetos industriais e R\&D,
+                Engenheiro e Investigador sênior com mais de 20 anos de experiência em gestão de projetos industriais e P\&D,
                 incluindo a implementação de duas fábricas de automóveis no Brasil, bem como na produção de aço, geração de
                 energia e automação. Desenvolve projetos de ferramentas robotizadas e manipuladoras, veículos autônomos, gestão
                 de ativos, RCM, TPM, confiabilidade e manutenção de equipamentos críticos e avaliação na aplicação FMEA. 
@@ -37,25 +35,26 @@
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[t]{Justificativa} 
     \transdissolve[duration=0.5]
+    \newcommand\vertspacejust{0.12cm}
     %\newline
         \begin{columns}[t]
             \column{.05\linewidth}
             \column{.6\linewidth}
-                \begin{itemize}
                     \justifying
-                    \item A rotina da vida urbana torna o tempo um recurso escasso, dificultando atividades de cultivo; \cite{G1:3xtransito}
-                    \item Há uma longa e complexa cadeia logística na disponibilização de alimentos orgânicos; \cite{silva:cadeiaprodutiva}
-                    \item A busca por alimentos orgânicos tem crescido;  \cite{sebrae:organicos}.
-                    \item O cultivo de pequenos temperos e hortaliças no ambiente domiciliar favorece uma cultura mais "verde" e participativa; \cite{G1:pequenoagricultor}
-                \end{itemize}
+                    A busca por alimentos orgânicos tem crescido;  \cite{sebrae:organicos}. \\ \vspace*{\vertspacejust}
+                    O cultivo de pequenos temperos e hortaliças no ambiente domiciliar favorece uma cultura mais "verde" e participativa; \cite{G1:pequenoagricultor} \\ \vspace*{\vertspacejust}
+                    A rotina da vida urbana torna o tempo um recurso escasso, dificultando atividades de cultivo; \cite{G1:3xtransito} \\ \vspace*{\vertspacejust}
+                    Há uma longa e complexa cadeia logística na disponibilização de alimentos orgânicos; \cite{silva:cadeiaprodutiva}  \\ \vspace*{\vertspacejust}
             \column{.45\linewidth}
+            
             \begin{center}
             %\centerline{
                 \begin{figure}
-                    %\includegraphics[width=1\textwidth]{pista}
-                    % \caption{Pista de corrida}
-                    \hspace{125pt}
-                    \roundpic[xshift=0cm,yshift=0cm]{4cm}{5cm}{organic-icon.png}
+                    \vspace{-1cm}
+                    \includegraphics[width=0.85\textwidth]{anvisa-2018-irregularidades.png}
+                    \caption{\centering Resultados do monitoramento de agrotóxicos nos alimentos \cite{ANVISA-PARA:online}}
+                    % \hspace{125pt}
+                    % \roundpic[xshift=0cm,yshift=0cm]{4cm}{5cm}{}
                     %\caption{Pista de corrida \cite{agostini2007}}
                 \end{figure}
             %}
@@ -115,7 +114,7 @@
                     %//todo dois objetivos?? ou um só? escolha.
                     Desenvolver um sistema robótico capaz \\ 
                     de realizar o plantio e monitoramento \\ 
-                    de hortaliças.       
+                    de hortaliças       
                   \end{tabular}
             }%
         \end{center}
